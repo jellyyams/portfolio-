@@ -19,6 +19,7 @@
     width: 75%;
     max-width: 1200; 
     float: right;
+    padding-right: 1.3em;
     justify-content: right;
     display: flex; 
     flex-wrap: wrap;

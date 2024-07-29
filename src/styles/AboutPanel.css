@@ -1,12 +1,7 @@
-.parentPanel{
-    position: fixed;
-    height: 100vh; 
-    z-index: 1;
-    top: 0; 
-}
+
 .sidePanel {
     height: 95%;
-    max-width: 25%; 
+    max-width: 75%; 
     position: relative;
 }
 

@@ -1,8 +1,27 @@
 #root {
-    max-width: 1280px;
     height: 100vh;
-    padding: 2rem;
+    padding-left:2rem;
+    padding-right: 0rem;
     font-family: Kosugi;
+}
+
+.parentPanel{
+    position: fixed;
+    height: 100vh; 
+    width: 30%;
+    z-index: 1;
+    top: 0; 
+    float: left;
+
+}
+.cardPanel{
+ 
+    width: 75%;
+    max-width: 1200; 
+    float: right;
+    justify-content: right;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 @font-face {

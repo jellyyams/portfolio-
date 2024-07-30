@@ -11,8 +11,10 @@
         "format": "prettier --write \"**/*.(ts|tsx|json|css|md)\""
     },
     "dependencies": {
+        "markdown": "^0.5.0",
         "react": "^18.3.1",
-        "react-dom": "^18.3.1"
+        "react-dom": "^18.3.1",
+        "react-markdown": "^9.0.1"
     },
     "devDependencies": {
         "@types/react": "^18.3.3",

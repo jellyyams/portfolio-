@@ -13,3 +13,10 @@
     bottom: 0;
     font-size: 0.85rem;
 }
+
+.siteTitle {
+    font-size: 6.5rem;
+    width: 100vw;
+    margin: 2rem 0; 
+     
+}

@@ -12,6 +12,7 @@
     z-index: 1;
     top: 0;
     float: left;
+    color: #005459;
 }
 .rightPanel {
     width: 75%;
@@ -21,6 +22,7 @@
     justify-content: right;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 
 @font-face {

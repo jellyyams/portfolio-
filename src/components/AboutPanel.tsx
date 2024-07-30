@@ -3,8 +3,9 @@ import "../styles/AboutPanel.css";
 export default function AboutPanel() {
     return (
         <div className="sidePanel">
+            <h1 className="siteTitle">KELLY YEN</h1>
             <div className="about">
-                <h1>KELLY YEN</h1>
+                
                 <p>Hello World! </p>
                 <p>
                     This is a bunch of text introducing me. I've worked on a variety of projects and

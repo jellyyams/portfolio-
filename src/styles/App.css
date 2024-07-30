@@ -1,31 +1,31 @@
 #root {
     height: 100vh;
-    padding-left:2rem;
+    padding-left: 2rem;
     padding-right: 0rem;
     font-family: Kosugi;
 }
 
-.parentPanel{
+.leftPanel {
     position: fixed;
-    height: 100vh; 
+    height: 100vh;
     width: 30%;
     z-index: 1;
-    top: 0; 
+    top: 0;
     float: left;
-
 }
-.cardPanel{
- 
+.rightPanel {
     width: 75%;
-    max-width: 1200; 
+    max-width: 1200;
     float: right;
     padding-right: 1.3em;
     justify-content: right;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
 }
 
 @font-face {
     font-family: "Kosugi";
-    src: local("KosugiMaru-Regular"), url("../fonts/KosugiMaru-Regular.ttf") format("truetype");
+    src:
+        local("KosugiMaru-Regular"),
+        url("../fonts/KosugiMaru-Regular.ttf") format("truetype");
 }

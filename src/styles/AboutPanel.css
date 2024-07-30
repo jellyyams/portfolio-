@@ -1,7 +1,6 @@
-
 .sidePanel {
     height: 95%;
-    max-width: 80%; 
+    max-width: 80%;
     position: relative;
 }
 
@@ -10,10 +9,7 @@
 }
 
 .socialLinks {
-    position: absolute; 
+    position: absolute;
     bottom: 0;
     font-size: 0.85rem;
-
-
 }
-

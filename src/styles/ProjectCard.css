@@ -1,6 +1,6 @@
-.card{
-    width: 40%; 
-    height: 30em; 
+.card {
+    width: 40%;
+    height: 30em;
     margin: 0.5rem;
     padding: 1rem;
     border-style: solid;
@@ -8,24 +8,25 @@
     float: right;
 }
 
-.card:hover{
-    background-color: yellow;
-    border-color: yellow;
+.card:hover {
+    background-color: #fff235;
+    border-color: #fff235;
+    transition: ease-in 0.3s;
 }
 
-.card:hover .image{
+.card:hover .image {
     filter: brightness(30%);
     transition: ease-in 0.3s;
 }
 
-.card:hover .overlay{
-    opacity: 1; 
+.card:hover .overlay {
+    opacity: 1;
     transition: ease-in 0.3s;
 }
 
 .overlay {
-    color:white; 
-    position: absolute; 
+    color: white;
+    position: absolute;
     opacity: 0;
     z-index: 1;
     width: 25%;
@@ -34,36 +35,34 @@
     padding: 1rem;
 }
 
-.date{
-    text-align:right;
+.date {
+    text-align: right;
     font-size: 1.2rem;
     margin-top: 1rem;
-
 }
-.position{
+.position {
     font-size: 1.1rem;
     margin: 0;
     white-space: pre-wrap;
 }
-.projectdetails{
+.projectdetails {
     position: absolute;
 }
 
-.imgcontainer{
+.imgcontainer {
     width: 100%;
     height: 65%;
-
 }
-.title{
-    margin-bottom:0.5rem;
+.title {
+    margin-bottom: 0.5rem;
 }
 
-.image{
+.image {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
-.cardtext{
+.cardtext {
     position: relative;
-    height: 25%;    
+    height: 25%;
 }

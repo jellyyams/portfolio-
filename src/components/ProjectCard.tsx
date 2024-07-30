@@ -1,42 +1,39 @@
-import "../styles/ProjectCard.css"
-import { useState } from "react";
+import "../styles/ProjectCard.css";
 
+interface ProjectCardProps{
+    title:string, 
+    date:string, 
+    skills:string, 
+    description:string
 
+}
 
-export default function ProjectCard() {
+export default function ProjectCard({title, date, skills, description} : ProjectCardProps) {
     // const [hover, setHover] = useState(false);
     // const onHover = () => {
-    //     setHover(true); 
+    //     setHover(true);
     // }
     // const onHoverOver = () => {
-    //     setHover(false); 
+    //     setHover(false);
     // }
     // const HoverData = "This sentence is a Project descirption, describing what the project is about."
 
-    return(
+    return (
         <div className="card">
-            <div className = "imgcontainer">
+            <div className="imgcontainer">
                 <div className="overlay">
-                    Hello There this is the overlay this is a sentence lk odf asldk  wlekr asldkfja sdi welk dilal .
+                    {description}
                 </div>
-             
-                <img 
-                    className="image" 
-                    src="src/assets/test.jpeg" 
-                />
+
+                <img className="image" src="src/assets/test.jpeg" />
             </div>
-          
-           
+
             <div className="cardtext">
-                <h2 className="title">Title of Project</h2>
-                <p className="position">
-                    Project Manager | User Research{"\n\n"}
-                </p>
+                <h2 className="title">{title}</h2>
+                <p className="position">{skills}</p>
 
-                <p className="date">July 2023</p>
-
+                <p className="date">{date}</p>
             </div>
         </div>
-    )
-
+    );
 }

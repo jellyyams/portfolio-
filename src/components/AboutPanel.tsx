@@ -1,26 +1,38 @@
 import "../styles/AboutPanel.css";
 
-export default function AboutPanel() {
+interface AboutPanelProps {
+    onClickHandler: () => void;
+}
+
+export default function AboutPanel({ onClickHandler }: AboutPanelProps) {
     return (
         <div className="sidePanel">
-            <h1 className="siteTitle">KELLY YEN</h1>
+            <h1 className="siteTitle" onClick={onClickHandler}>
+                Kelly Yen
+            </h1>
             <div className="about">
-                
-                <p>Hello World! </p>
                 <p>
-                    This is a bunch of text introducing me. I've worked on a variety of projects and
-                    roles etc. etc. blah blah a alskdfjalksdfja lksd wind sdkflalsdlfj asdf
+                    Hello World! I'm a software developer, academic in training, and aspiring social
+                    scientist passionate about understanding the systemic factors that influence
+                    technology development.
                 </p>
+                <p></p>
+                <p>
+                    I'm currently looking for full time oppourtunities for Summer of 2025. Feel free
+                    to reach out via Linkedin or email (kelly.sy.yen@gmail.com)
+                </p>
+                <br></br>
+                <p>Resume</p>
             </div>
 
             <div className="socialLinks">
-                <p>github</p>
-                <p>linkedin</p>
+                <p>Github</p>
+                <p>Linkedin</p>
                 <p>
                     Bachelor's of Science in Engineering from Franklin W. Olin College of
-                    Engineering
+                    Engineering (2023)
                 </p>
-                <p>Master's of Science in Information Networks from Aalto University</p>
+                <p>Master's of Science in Information Networks from Aalto University (2026)</p>
             </div>
         </div>
     );

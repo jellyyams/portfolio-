@@ -1,34 +1,15 @@
-# React + TypeScript + Vite
+# A React + Typescript + Vite portfolio site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React is, we can all agree, overkill for a small portfolio site. There's nothing fancy going on with this project, it's just meant to be a brief refresher on react as well as a chance to learn the most current standards for implementing a react project.
 
-Currently, two official plugins are available:
+I'm making this repo public in case there's anyone else interested in building a small react project for their portfolio site.
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A longer term goal for this site is to add the Google Drive API so I can update and add pages to the site via files stored in Google drive.
 
-## Expanding the ESLint configuration
+## Running
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+"npm run dev"
 
--   Configure the top-level `parserOptions` property like this:
+## Installing packages
 
-```js
-export default {
-    // other rules...
-    parserOptions: {
-        ecmaVersion: "latest",
-        sourceType: "module",
-        project: ["./tsconfig.json", "./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: __dirname,
-    },
-};
-```
-
--   Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
--   Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
--   Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-
-## Notes 
-
-to install a package run "npm i <package-name> --save"
+to install a package run "npm i package-name --save"

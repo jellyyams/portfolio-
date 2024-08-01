@@ -1,22 +1,23 @@
 .sidePanel {
     height: 95%;
-    max-width: 80%;
+    max-width: 88%;
     position: relative;
+    color: #00575b;
 }
 
-.about:h1 {
-    font-size: 30px;
+.about {
+    font-size: 1.05rem;
 }
 
 .socialLinks {
     position: absolute;
     bottom: 0;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
 }
 
 .siteTitle {
-    font-size: 6.5rem;
+    font-size: 3rem;
     width: 100vw;
-    margin: 2rem 0; 
-     
+    margin: 2rem 0;
+    cursor: pointer;
 }

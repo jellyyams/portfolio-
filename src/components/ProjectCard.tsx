@@ -1,14 +1,20 @@
 import "../styles/ProjectCard.css";
 
-interface ProjectCardProps{
-    title:string, 
-    date:string, 
-    skills:string, 
-    description:string
-
+interface ProjectCardProps {
+    title: string;
+    date: string;
+    skills: string;
+    description: string;
+    onClickHandler: () => void;
 }
 
-export default function ProjectCard({title, date, skills, description} : ProjectCardProps) {
+export default function ProjectCard({
+    title,
+    date,
+    skills,
+    description,
+    onClickHandler,
+}: ProjectCardProps) {
     // const [hover, setHover] = useState(false);
     // const onHover = () => {
     //     setHover(true);
@@ -19,11 +25,9 @@ export default function ProjectCard({title, date, skills, description} : Project
     // const HoverData = "This sentence is a Project descirption, describing what the project is about."
 
     return (
-        <div className="card">
+        <div className="card" onClick={onClickHandler}>
             <div className="imgcontainer">
-                <div className="overlay">
-                    {description}
-                </div>
+                <div className="overlay">{description}</div>
 
                 <img className="image" src="src/assets/test.jpeg" />
             </div>

@@ -4,6 +4,15 @@
     padding-right: 0rem;
     font-family: Kosugi;
 }
+#root a {
+    color: #00575b;
+    text-decoration: underline #fff235;
+    text-decoration-thickness: 3px;
+}
+
+#root a:hover {
+    background-color: #fff235;
+}
 
 .leftPanel {
     position: fixed;
@@ -22,6 +31,19 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 4rem;
+}
+
+@media all and (max-width: 900px) {
+    .leftPanel {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .rightPanel {
+        width: 100%;
+        font-size: 0.8em;
+    }
 }
 
 @font-face {

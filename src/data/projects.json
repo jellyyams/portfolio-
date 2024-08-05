@@ -1,10 +1,18 @@
 {
     "projects": [
         {
-            "title": "Public Interest Technology",
-            "date": "2019 - 2022",
-            "description": "A project hub at Olin College providing oppourtunities for students to explore the social and ethical implications of technology development.",
-            "skills": "Project Management\n\n",
+            "title": "The Social Psychology of Protest",
+            "date": "Fall 2023",
+            "description": "Community led development to",
+            "skills": "Survey Research | Community Engagement | Academic Research",
+            "img": "test.jpeg",
+            "mdfile": "projects/kyaro.md"
+        },
+        {
+            "title": "Deepfake Detection",
+            "date": "Summer 2023",
+            "description": "Developing python infrastructure for testing and developing a Deepfake detection tool.",
+            "skills": "Python Development | Academic Research | Ethical AI",
             "img": "test.jpeg",
             "mdfile": "projects/kyaro.md"
         },
@@ -17,10 +25,10 @@
             "mdfile": "projects/kyaro.md"
         },
         {
-            "title": "Deepfake Detection",
-            "date": "Summer 2023",
-            "description": "Developing python infrastructure for testing and developing a Deepfake detection tool.",
-            "skills": "Python Development | Academic Research | Ethical AI",
+            "title": "Public Interest Technology",
+            "date": "2019 - 2022",
+            "description": "A project hub at Olin College providing oppourtunities for students to explore the social and ethical implications of technology development.",
+            "skills": "Project Management\n\n",
             "img": "test.jpeg",
             "mdfile": "projects/kyaro.md"
         },
@@ -37,14 +45,6 @@
             "date": "Spring 2021",
             "description": "Using collaborative research strategies to design a solution for improving the personal and professional lives of urban planners.",
             "skills": "User Research\n\n",
-            "img": "test.jpeg",
-            "mdfile": "projects/kyaro.md"
-        },
-        {
-            "title": "The Social Psychology of Protest",
-            "date": "Fall 2023",
-            "description": "Community led development to",
-            "skills": "Survey Research | Community Engagement | Academic Research",
             "img": "test.jpeg",
             "mdfile": "projects/kyaro.md"
         }

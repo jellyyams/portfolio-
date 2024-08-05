@@ -22,12 +22,19 @@ export default function AboutPanel({ onClickHandler }: AboutPanelProps) {
                     to reach out via Linkedin or email (kelly.sy.yen@gmail.com)
                 </p>
                 <br></br>
-                <p>Resume</p>
+                <a className="resume" href="/KellyYenResume2024.pdf" target="_blank">
+                    Resume
+                </a>
             </div>
 
             <div className="socialLinks">
-                <p>Github</p>
-                <p>Linkedin</p>
+                <p>
+                    <a href="https://github.com/jellyyams">Github</a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/kelly-yen/">Linkedin</a>
+                </p>
+
                 <p>
                     Bachelor's of Science in Engineering from Franklin W. Olin College of
                     Engineering (2023)

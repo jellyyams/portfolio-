@@ -35,6 +35,13 @@ export default function ProjectPanel({
 
     return (
         <div className="projectpage">
+            {/* <div className="closecontainer">
+            <p className="closebutton" onClick={onClickHome}>
+            Close X
+            </p>
+
+            </div> */}
+
             <div className="projectinfo">
                 <div className="header1">
                     <p className="title1">{title}</p>

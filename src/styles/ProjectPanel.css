@@ -7,14 +7,19 @@
 }
 
 .projectpage {
-    margin: 1rem 1rem 1rem 5rem;
+    margin: 2rem 0.5rem 1rem 7rem;
     height: auto;
+}
+
+.closecontainer {
+    position: relative;
+    margin-bottom: 3rem;
 }
 
 .projectinfo {
     border-style: solid;
     border-width: 1px;
-    padding: 1rem 4rem;
+    padding: 0.5rem 3.5rem 1rem 3.5rem;
 }
 
 .header1 {
@@ -26,7 +31,7 @@
 }
 .title1 {
     float: left;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 0;
     bottom: 0;
     max-width: 70%;
@@ -35,7 +40,7 @@
 
 .date1 {
     float: right;
-    font-size: 2rem;
+    font-size: 1.5em;
     margin: 0;
     top: 0;
     right: 0;
@@ -47,12 +52,14 @@
     width: 100%;
     padding: 0.5rem 0 1rem 0;
     color: #00575b;
+    font-size: 1.5em;
 }
 
 .buttons {
     position: relative;
     width: 100%;
     color: #00575b;
+    font-size: 1.1rem;
 }
 
 .previousbutton {
@@ -70,21 +77,52 @@
     width: 100%;
     text-align: center;
 }
+.closebutton {
+    float: right;
+    color: #00575b;
+}
+.closebutton:hover {
+    cursor: pointer;
+    text-decoration: underline #fff235;
+    text-decoration-thickness: 3px;
+}
 
 .previousbutton:hover {
     cursor: pointer;
-    font-size: 1.1rem;
-    transition: ease-in 0.2s;
+    text-decoration: underline #fff235;
+    text-decoration-thickness: 3px;
 }
 
 .homebutton:hover {
     cursor: pointer;
-    font-size: 1.1rem;
-    transition: ease-in 0.2s;
+    text-decoration: underline #fff235;
+    text-decoration-thickness: 3px;
 }
 
 .nextbutton:hover {
     cursor: pointer;
-    font-size: 1.1rem;
-    transition: ease-in 0.2s;
+    text-decoration: underline #fff235;
+    text-decoration-thickness: 3px;
+}
+
+@media all and (max-width: 900px) {
+    .projectinfo {
+        border-style: solid;
+        border-width: 1px;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .projectpage {
+        margin: 0.5rem;
+        height: auto;
+    }
+
+    .previousbutton {
+        opacity: 0;
+    }
+
+    .nextbutton {
+        opacity: 0;
+    }
 }

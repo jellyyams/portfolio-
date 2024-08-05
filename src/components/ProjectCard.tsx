@@ -15,15 +15,6 @@ export default function ProjectCard({
     description,
     onClickHandler,
 }: ProjectCardProps) {
-    // const [hover, setHover] = useState(false);
-    // const onHover = () => {
-    //     setHover(true);
-    // }
-    // const onHoverOver = () => {
-    //     setHover(false);
-    // }
-    // const HoverData = "This sentence is a Project descirption, describing what the project is about."
-
     return (
         <div className="card" onClick={onClickHandler}>
             <div className="imgcontainer">
@@ -35,9 +26,8 @@ export default function ProjectCard({
             <div className="cardtext">
                 <h2 className="title">{title}</h2>
                 <p className="position">{skills}</p>
-
-                <p className="date">{date}</p>
             </div>
+            <p className="date">{date}</p>
         </div>
     );
 }

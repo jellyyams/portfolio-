@@ -5,19 +5,31 @@
     color: #00575b;
 }
 
+.resume {
+    font-size: 1.3em;
+}
 .about {
-    font-size: 1.05rem;
+    font-size: 1.05em;
 }
 
 .socialLinks {
     position: absolute;
     bottom: 0;
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
 
 .siteTitle {
-    font-size: 3rem;
-    width: 100vw;
+    font-size: 3em;
     margin: 2rem 0;
     cursor: pointer;
+}
+
+@media all and (max-width: 900px) {
+    .socialLinks {
+        opacity: 0;
+    }
+
+    .sidePanel {
+        padding-bottom: 2rem;
+    }
 }

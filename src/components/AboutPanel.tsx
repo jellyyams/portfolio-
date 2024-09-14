@@ -29,10 +29,10 @@ export default function AboutPanel({ onClickHandler }: AboutPanelProps) {
 
             <div className="socialLinks">
                 <p>
-                    <a href="https://github.com/jellyyams">Github</a>
+                    <a className = "atag" href="https://github.com/jellyyams">Github</a>
                 </p>
                 <p>
-                    <a href="https://www.linkedin.com/in/kelly-yen/">Linkedin</a>
+                    <a className = "atag" href="https://www.linkedin.com/in/kelly-yen/">Linkedin</a>
                 </p>
 
                 <p>

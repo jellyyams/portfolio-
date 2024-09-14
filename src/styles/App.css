@@ -6,12 +6,25 @@
 }
 #root a {
     color: #00575b;
-    text-decoration: underline #fff235;
+    text-decoration: underline ;
+    text-decoration-color: #fff235; 
     text-decoration-thickness: 3px;
 }
 
 #root a:hover {
     background-color: #fff235;
+}
+
+.atag {
+    color: #00575b;
+    text-decoration: underline #fff235;
+    text-decoration-thickness: 3px;
+
+}
+
+.atag:hover {
+    background-color: #fff235;
+
 }
 
 .leftPanel {

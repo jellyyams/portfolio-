@@ -7,7 +7,7 @@
 }
 
 .projectpage {
-    margin: 2rem 0.5rem 1rem 7rem;
+    margin: 2rem 0.5rem 1rem 8rem;
     height: auto;
 }
 
@@ -20,6 +20,27 @@
     border-style: solid;
     border-width: 1px;
     padding: 0.5rem 3.5rem 1rem 3.5rem;
+    margin-top: 4.5rem;
+}
+
+.md img {
+    height: 30rem;
+    max-width: 100%;
+    object-fit: contain;
+    margin: auto;
+    justify-self: center;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.md {
+
+}
+
+.md p {
+    display: inline-block;    
 }
 
 .header1 {

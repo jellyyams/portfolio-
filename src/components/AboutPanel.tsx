@@ -18,11 +18,11 @@ export default function AboutPanel({ onClickHandler }: AboutPanelProps) {
                 </p>
                 <p></p>
                 <p>
-                    I'm currently looking for full time oppourtunities for Summer of 2025. Feel free
+                    I'm currently looking for research positions and full time oppourtunities for Summer of 2025. Feel free
                     to reach out via Linkedin or email (kelly.sy.yen@gmail.com)
                 </p>
                 <br></br>
-                <a className="resume" href="/KellyYenResume2024.pdf" target="_blank">
+                <a className="resume" href="YenResume2024.pdf" target="_blank">
                     Resume
                 </a>
             </div>

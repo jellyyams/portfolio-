@@ -13,6 +13,7 @@ export default function App() {
         skills: string;
         description: string;
         mdfile: string;
+        img: string;
         index: number;
     };
     const projectsjson = JSON.parse(JSON.stringify(data));
@@ -25,6 +26,7 @@ export default function App() {
             skills: pUntyped.skills,
             description: pUntyped.description,
             mdfile: pUntyped.mdfile,
+            img: pUntyped.img,
             index: Number(i),
         };
         projects.push(pObject);
@@ -62,6 +64,7 @@ export default function App() {
                             date={project.date}
                             skills={project.skills}
                             description={project.description}
+                            img={project.img}
                             onClickHandler={() => onProjectCardClick(project)}
                         />
                     ))}

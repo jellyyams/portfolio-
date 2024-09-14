@@ -5,6 +5,7 @@ interface ProjectCardProps {
     date: string;
     skills: string;
     description: string;
+    img: string; 
     onClickHandler: () => void;
 }
 
@@ -13,6 +14,7 @@ export default function ProjectCard({
     date,
     skills,
     description,
+    img,
     onClickHandler,
 }: ProjectCardProps) {
     return (
@@ -20,7 +22,8 @@ export default function ProjectCard({
             <div className="imgcontainer">
                 <div className="overlay">{description}</div>
 
-                <img className="image" src="src/assets/test.jpeg" />
+                <img className="image" src={img} />
+               
             </div>
 
             <div className="cardtext">

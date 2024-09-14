@@ -3,50 +3,50 @@
         {
             "title": "The Social Psychology of Protest",
             "date": "Fall 2023",
-            "description": "Community led development to",
-            "skills": "Survey Research | Community Engagement | Academic Research",
-            "img": "test.jpeg",
-            "mdfile": "projects/kyaro.md"
+            "description": "Examining the role of emotions, grievances, beliefs in efficacy, identity, and social embeddedness in the 2023 Cobre Panama protests.",
+            "skills": "academic writing & research | field research | community engagement",
+            "img": "images/bocas1.jpeg",
+            "mdfile": "projects/protest.md"
         },
         {
             "title": "Deepfake Detection",
             "date": "Summer 2023",
-            "description": "Developing python infrastructure for testing and developing a Deepfake detection tool.",
-            "skills": "Python Development | Academic Research | Ethical AI",
-            "img": "test.jpeg",
-            "mdfile": "projects/kyaro.md"
+            "description": "Developing python infrastructure for testing and optimizing a Deepfake detection tool.",
+            "skills": "academic writing & research | Python development | AI ethics",
+            "img": "images/deepfake3.jpg",
+            "mdfile": "projects/deepfake.md"
         },
         {
             "title": "Air Partners",
             "date": "2022 - 2023",
-            "description": "Senior capstone project that installed and tested the effectiveness of indoor HEPA purifiers for improving air quality in Roxbury, Massachusettes residences.",
-            "skills": "Community Engagement | Project Management | Data Science ",
-            "img": "test.jpeg",
-            "mdfile": "projects/kyaro.md"
+            "description": "Analyzing the effectiveness of relying on HEPA purifiers for improving indoor air quality in Roxbury, Massachusettes.",
+            "skills": "data analysis | community engagement | environmental advocacy ",
+            "img": "images/airpartners2.jpeg",
+            "mdfile": "projects/airpartners.md"
         },
         {
             "title": "Public Interest Technology",
             "date": "2019 - 2022",
             "description": "A project hub at Olin College providing oppourtunities for students to explore the social and ethical implications of technology development.",
-            "skills": "Project Management\n\n",
-            "img": "test.jpeg",
-            "mdfile": "projects/kyaro.md"
+            "skills": "societally conscious engineering | project management",
+            "img": "images/pint2.png",
+            "mdfile": "projects/pint.md"
         },
         {
             "title": "Kyaro Assistive Tech",
             "date": "Summer 2021",
-            "description": "Community led development to",
-            "skills": "Visual Design | Photography | Website Building | Community Engagement",
-            "img": "test.jpeg",
+            "description": "Developing a brand identity and website for an assistive technology nonprofit in Arusha, Tanzania.",
+            "skills": "logo & brand design | website building | photography",
+            "img": "images/kyaro5.jpg",
             "mdfile": "projects/kyaro.md"
         },
         {
             "title": "Designing For Urban Planners",
             "date": "Spring 2021",
-            "description": "Using collaborative research strategies to design a solution for improving the personal and professional lives of urban planners.",
-            "skills": "User Research\n\n",
-            "img": "test.jpeg",
-            "mdfile": "projects/kyaro.md"
+            "description": "Using collaborative design strategies to co-create a solution for improving the personal and professional lives of urban planners.",
+            "skills": "user research | collaborative design",
+            "img": "images/uocd13.png",
+            "mdfile": "projects/uocd.md"
         }
     ]
 }

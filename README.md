@@ -4,6 +4,10 @@ React is, we can all agree, overkill for a small portfolio site. There's nothing
 
 I'm making this repo public in case there's anyone else interested in building a small react project for their portfolio site.
 
+## Live website
+
+view the portfolio site [here](https://jellyyams.github.io/portfolio-/)
+
 ## Running
 
 "npm run dev"
@@ -11,3 +15,4 @@ I'm making this repo public in case there's anyone else interested in building a
 ## Installing packages
 
 to install a package run "npm i package-name --save"
+

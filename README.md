@@ -6,7 +6,7 @@ I'm making this repo public in case there's anyone else interested in building a
 
 ## Live website
 
-view the portfolio site [here](https://jellyyams.github.io/portfolio-/)
+The live site is hosted on github pages. view the portfolio site [here](https://jellyyams.github.io/portfolio-/)
 
 ## Running
 

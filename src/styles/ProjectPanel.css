@@ -28,12 +28,12 @@
     max-width: 100%;
     object-fit: contain;
     margin: auto;
+    padding: 0.5em 0 0.5em 0; 
     justify-self: center;
     display: inline-block;
     text-align: center;
-
-
 }
+
 
 .md p {
     display: inline-block;    
@@ -141,5 +141,25 @@
 
     .nextbutton {
         opacity: 0;
+    }
+
+    .title1 {
+        font-size: 2.7rem;
+  
+    }
+
+
+    .date1 {
+        font-size: 1.2em;
+    }
+
+    .md img {
+        max-height: 20rem;
+        max-width: 100%;
+        object-fit: cover;
+        margin: auto;
+        justify-self: center;
+        display: inline-block;
+        text-align: center;
     }
 }

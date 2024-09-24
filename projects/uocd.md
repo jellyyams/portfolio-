@@ -15,16 +15,16 @@ After completing all 11 interviews, we were then tasked with creating personas t
 
 
 <div style="dispay:flex; text-align:center">
-    <img alt = "team attribute spectrum" style="height:25rem" src="././images/uocd9.png" />
+    <img alt = "team attribute spectrum" style="height:25rem" style="object-fit:contain" src="././images/uocd9.png" />
     <img alt="team venn diagram" style="height:25rem" src="././images/uocd10.png" />
 </div>
 
-<div style="text-align:center">
-    <img alt="personas" src="././images/uocd17.png" />
+<div style="text-align:center" >
+    <img alt="personas" style="object-fit:contain" src="././images/uocd17.png" />
 </div>
 
 <div style="text-align:center">
-    <img alt="personas" src="././images/uocd18.png" />
+    <img alt="personas" style="object-fit:contain" src="././images/uocd18.png" />
 </div>
 
 
@@ -38,7 +38,7 @@ Next we entered an ideation phase, generating hundreds of potential ideas and gr
 
 
 <div style="text-align:center">
-    <img alt="ideation process" src="././images/uocd3.png" />
+    <img alt="ideation process" src="././images/uocd3.png" style="object-fit:contain" />
 </div>
 
 
@@ -46,11 +46,11 @@ Next we entered an ideation phase, generating hundreds of potential ideas and gr
 We designed an interactive co-design miro board that would allow us to not only solicit feedback, but also give the users an opportunity to directly play with, modify, and iterate on the digital representations of each idea. 
 
 <div style="text-align:center">
-    <img alt="codesign template" src="././images/uocd15.png" />
+    <img alt="codesign template" src="././images/uocd15.png" style="object-fit:contain" />
 </div>
 
 <div style="text-align:center">
-    <img alt="screenshot of miro board containing co design idea prototypes" src="././images/uocd16.png" />
+    <img alt="screenshot of miro board containing co design idea prototypes" src="././images/uocd16.png" style="object-fit:contain"/>
 </div>
 
 After completing co-designs with seven users, we synthesized our findings into 2 big insights: 
@@ -61,11 +61,11 @@ After completing co-designs with seven users, we synthesized our findings into 2
 We used these insights to go through another round of ideation and arrived at our top 10 ideas. 
 
 <div style="text-align:center">
-    <img alt="codesign synthesis process" src="././images/uocd5.png" />
+    <img alt="codesign synthesis process" style="object-fit:contain" src="././images/uocd5.png" />
 </div>
 
 <div style="text-align:center">
-    <img alt="top 10 ideas" src="././images/uocd6.png" />
+    <img alt="top 10 ideas"  style="object-fit:contain" src="././images/uocd6.png" />
 </div>
 
 

@@ -43,16 +43,16 @@ export default function ProjectPanel({
 
             <div className="buttons">
                 {index > 0 && (
-                    <p className="previousbutton" onClick={() => onClickPrevious(index)}>
-                        {"<-"} Previous Projects
+                    <p className="nextbutton" onClick={() => onClickPrevious(index)}>
+                        {"<-"} Next Project
                     </p>
                 )}
                 <p className="homebutton" onClick={onClickHome}>
                     View All Projects
                 </p>
                 {index < maxindex && (
-                    <p className="nextbutton" onClick={() => onClickNext(index)}>
-                        Next Project {"->"}
+                    <p className="previousbutton" onClick={() => onClickNext(index)}>
+                        Previous Project {"->"}
                     </p>
                 )}
             </div>
@@ -70,16 +70,16 @@ export default function ProjectPanel({
 
             <div className="buttons">
                 {index > 0 && (
-                    <p className="previousbutton" onClick={() => onClickPrevious(index)}>
-                        {"<-"} Previous Projects
+                    <p className="nextbutton" onClick={() => onClickPrevious(index)}>
+                        {"<-"} Next Project
                     </p>
                 )}
                 <p className="homebutton" onClick={onClickHome}>
                     View All Projects
                 </p>
                 {index < maxindex && (
-                    <p className="nextbutton" onClick={() => onClickNext(index)}>
-                        Next Project {"->"}
+                    <p className="previousbutton" onClick={() => onClickNext(index)}>
+                        Previous Project {"->"}
                     </p>
                 )}
             </div>

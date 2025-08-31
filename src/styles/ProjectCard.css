@@ -10,8 +10,8 @@
 }
 
 .card:hover {
-    background-color: #fff235;
-    border-color: #fff235;
+    background-color: var(--accent-1);
+    border-color: var(--accent-1);
     transition: ease-in 0.3s;
 }
 

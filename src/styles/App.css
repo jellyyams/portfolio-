@@ -1,3 +1,9 @@
+:root{
+    --primary-black: black; 
+    --accent-1: #fff235;
+    --accent-2: #00575b;
+}
+
 #root {
     height: 100vh;
     padding-left: 2rem;
@@ -7,23 +13,23 @@
 #root a {
     color: #00575b;
     text-decoration: underline ;
-    text-decoration-color: #fff235; 
+    text-decoration-color: var(--accent-1); 
     text-decoration-thickness: 3px;
 }
 
 #root a:hover {
-    background-color: #fff235;
+    background-color: var(--accent-1);
 }
 
 .atag {
-    color: #00575b;
-    text-decoration: underline #fff235;
+    color: var(--accent-2);
+    text-decoration: underline var(--accent-1);
     text-decoration-thickness: 3px;
 
 }
 
 .atag:hover {
-    background-color: #fff235;
+    background-color: var(--accent-1);
 
 }
 

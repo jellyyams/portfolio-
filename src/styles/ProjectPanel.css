@@ -24,13 +24,9 @@
 }
 
 .md img {
-    height: 30rem;
-    max-width: 100%;
+    max-height: 30rem;
+    max-width: 90%;
     object-fit: contain;
-    margin: auto;
-    padding: 0.5em 0 0.5em 0; 
-    justify-self: center;
-    display: inline-block;
     text-align: center;
 }
 
@@ -62,32 +58,33 @@
     top: 0;
     right: 0;
     position: absolute;
-    color: #00575b;
+    color: var(--accent-2);
 }
 
 .skills1 {
     width: 100%;
     padding: 0.5rem 0 1rem 0;
-    color: #00575b;
+    color: var(--accent-2);
     font-size: 1.5em;
 }
 
 .buttons {
     position: relative;
     width: 100%;
-    color: #00575b;
+    color: var(--accent-2);
     font-size: 1.1rem;
 }
 
 .previousbutton {
-    left: 0;
+     right: 0;
     position: absolute;
     z-index: 1;
 }
 .nextbutton {
-    right: 0;
+    left: 0;
     position: absolute;
     z-index: 1;
+   
 }
 .homebutton {
     position: absolute;
@@ -96,29 +93,45 @@
 }
 .closebutton {
     float: right;
-    color: #00575b;
+    color: var(--accent-2);
 }
+
+.imagediv {
+    display: flex; 
+    text-align: left;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.imagediv p {
+    text-align: left;
+    padding: 1rem 2rem;
+    width: 15%;
+    color: var(--accent-2);
+
+}
+
 .closebutton:hover {
     cursor: pointer;
-    text-decoration: underline #fff235;
+    text-decoration: underline var(--accent-2);
     text-decoration-thickness: 3px;
 }
 
 .previousbutton:hover {
     cursor: pointer;
-    text-decoration: underline #fff235;
+    text-decoration: underline var(--accent-1);
     text-decoration-thickness: 3px;
 }
 
 .homebutton:hover {
     cursor: pointer;
-    text-decoration: underline #fff235;
+    text-decoration: underline var(--accent-1);
     text-decoration-thickness: 3px;
 }
 
 .nextbutton:hover {
     cursor: pointer;
-    text-decoration: underline #fff235;
+    text-decoration: underline var(--accent-1);
     text-decoration-thickness: 3px;
 }
 
@@ -129,6 +142,21 @@
         padding: 0.8rem;
         font-size: 1rem;
     }
+
+    .imagediv {
+        display: block;
+        justify-content: center;
+        padding: 1rem;
+
+    }
+
+    .imagediv p {
+        text-align: center;
+        padding: 1rem 0rem;
+        width: 100%;
+
+    }
+
 
     .projectpage {
         margin: 0.5rem;
@@ -155,11 +183,9 @@
 
     .md img {
         max-height: 20rem;
-        max-width: 100%;
+        width: 100%;
         object-fit: cover;
-        margin: auto;
-        justify-self: center;
-        display: inline-block;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

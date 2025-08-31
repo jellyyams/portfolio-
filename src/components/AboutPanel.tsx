@@ -12,16 +12,16 @@ export default function AboutPanel({ onClickHandler }: AboutPanelProps) {
             </h1>
             <div className="about">
                 <p>
-                    Hello! I'm a software developer and academic (in training) passionate about understanding the systemic factors that influence
+                    Hello World! I'm a software developer and academic (in training) interested in understanding the systemic factors that influence
                     technology development.
                 </p>
                 <p></p>
                 <p>
-                    I'm currently looking for research positions and full time oppourtunities for Summer of 2025. Feel free
+                    <b>I'm currently looking for Master's thesis oppourtunities.</b> Feel free
                     to reach out via <a href="https://www.linkedin.com/in/kelly-yen/">Linkedin</a> or email (kelly.sy.yen@gmail.com)
                 </p>
                 <br></br>
-                <a className="resume" href="YenResume2024.pdf" target="_blank">
+                <a className="resume" href="YenResume2025.pdf" target="_blank">
                     Resume
                 </a>
             </div>
